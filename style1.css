@@ -1,0 +1,82 @@
+body, h1, h2, p, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: white;
+}
+
+#sec {
+  background-color: white;
+  padding: 10px;
+}
+
+#first {
+  font-family: 'Times New Roman';
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #5c5858;
+}
+#destination{
+  background-color:white;
+  border-radius: 17px;
+  padding-left: 8px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  border-color: rgb(124, 124, 197);
+  
+}
+::placeholder{
+  color: rgb(140, 140, 236);
+  font-size: 15px;
+}
+
+.button {
+  margin: 30px;
+  margin-left: 10PX;
+  color: cadetblue;
+  padding: 5px;
+  font-size: 13px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-color: cadetblue;
+}
+
+.button:hover {
+  border-color: rgb(6, 31, 31);
+  font-size: 16px;
+  
+}
+#second {
+  position: relative;
+  display: flex;
+  flex-direction: row; /* Change flex-direction to row */
+  background-color: white;
+  margin-top: 5px;
+  padding: 20px;
+  padding-top: 5PX;
+  margin-bottom: 0px;
+  /* box-shadow: 0 0 10px rgba(20, 19, 19, 0.9); */
+}
+
+#map {
+  flex: 70%; /* Set the map to take up 70% of the width */
+  height: 400px;
+  /* border: 2px solid #090909; */
+  box-shadow: 0 0 10px rgb(163, 159, 159);
+}
+
+#instructions {
+  margin-left: 10PX;
+  flex: 30%; /* Set the instructions to take up 30% of the width */
+  height: 370px;
+  background-color: #eeebeb;
+  padding: 10px;
+  padding-left: 30px;
+  box-shadow: 0 0 5px rgba(14, 13, 13, 0.9);
+  overflow: scroll;
+}

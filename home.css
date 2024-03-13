@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+* {
+    box-sizing: border-box; /* Ensures consistent sizing */
+}
+
+.wrapper {
+    height: 100vh;
+    background-image: url("gps1.jpg");
+    background-attachment: fixed;
+    background-position: left 30px;
+    background-repeat: no-repeat;
+}
+
+.title {
+    margin-top: 25px;
+    font-size: 28px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    color: rgb(133, 130, 130);
+    /* animation: scrollText 15s linear infinite; */
+}
+
+.name {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 65px;
+    margin-left: 25px;
+    margin-top: 145px;
+    color: rgb(47, 113, 115);
+    
+}
+
+.info {
+    padding-left: 40px;
+    padding-top: 10px;
+    width: 450px;
+    color: rgb(133, 130, 130);
+}
+
+.button {
+    margin: 30px;
+    margin-left: 40PX;
+    color: cadetblue;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: cadetblue;
+}
+
+.button:hover {
+    border-color: rgb(6, 31, 31);
+}
+
+@keyframes scrollText {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
